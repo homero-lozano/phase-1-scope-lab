@@ -1,11 +1,7 @@
 var customerName = 'bob' 
 function upperCaseCustomerName() {
-    if (typeof customerName === 'string') {
-        customerName = customerName.toUpperCase(); 
-     } else { 
-            throw new Error;
-        }
-    }
+customerName = customerName.toUpperCase(); 
+}
 function setBestCustomer() {
     bestCustomer = 'not bob'
 } 
